@@ -1,0 +1,17 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Davis <jon@snowulf.com> (https://snowulf.com)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.2.44"
+  }
+}

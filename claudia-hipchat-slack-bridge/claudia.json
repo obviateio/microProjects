@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "hipchatbridge-executor",
+    "name": "hipchatbridge",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "asdfasdfasdf",
+    "module": "server"
+  }
+}

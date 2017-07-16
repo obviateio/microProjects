@@ -1,0 +1,20 @@
+{
+  "name": "claudia-hipchat-slack-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Davis <jon@snowulf.com> (https://snowulf.com)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.2.44",
+    "bluebird": "^3.3.4",
+    "claudia-api-builder": "^1.0.2",
+    "node-slack": "0.0.7"
+  }
+}

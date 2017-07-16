@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "snslisten-executor",
+    "name": "snslisten",
+    "region": "us-west-2"
+  }
+}
