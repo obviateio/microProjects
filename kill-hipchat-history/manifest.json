@@ -1,0 +1,15 @@
+{
+  "name": "Kill Hipchat",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "",
+  "homepage_url": "https://obviate.io",
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": ["https://*.hipchat.com/history/member/*/*/*/*"],
+      "js": ["js/jquery-2.1.4.min.js", "js/killhist.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
