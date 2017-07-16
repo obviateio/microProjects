@@ -1,0 +1,20 @@
+{
+  "name": "sms-to-slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "claudia create --name sms-to-slack --region us-west-2 --api-module index",
+    "deploy": "claudia update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-api-builder": "^1.1.0",
+    "request-promise": "^2.0.1"
+  }
+}

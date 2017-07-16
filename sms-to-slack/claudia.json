@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "sms-to-slack-executor",
+    "name": "sms-to-slack",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "id-id-id-id",
+    "module": "index"
+  }
+}
